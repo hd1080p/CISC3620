@@ -1,41 +1,49 @@
-# [Glitter](http://polytonic.github.io/Glitter/)
+# Lab 0
 
 ## Summary
-This starting point for the class is cloned from (http://polytonic.github.io/Glitter/). Glitter compiles and statically links every requirement so you don`t have to spend all your time getting that to work. This code will open a blank gray window.
+The startup code for this class is cloned from (http://polytonic.github.io/Glitter/). It is intended to get you started with OpenGL by compiling and statically linking every required library, so you don't have to deal with all that. 
 
-## Getting Started
-Glitter has a single dependency: [cmake](http://www.cmake.org/download/), which is used to generate platform-specific makefiles or project files. Start by cloning this repository, making sure to pass the `--recursive` flag to grab all the dependencies. If you forgot, then you can `git submodule update --init` instead.
+## Getting started
+1. Clone the repository
 
-```bash
-git clone --recursive https://github.com/Polytonic/Glitter
-cd Glitter
-cd Build
-```
+   This repository has been created for you by GitHub Classrom. It exists as a *remote* repository. Visit [this page] (https://help.github.com/articles/cloning-a-repository/) for instructions on how to **clone** a repository to create a *local* copy on your computer. You will make changes to the code on your own computer and sync between the local and remote copies.
 
-Now generate a project file or makefile for your platform. If you want to use a particular IDE, make sure it is installed; don't forget to set the Start-Up Project in Visual Studio or the Target in Xcode.
+   *Note:* In step 6 of the instructions at the link, pass the `--recursive' flag to the clone command to generate all the dependencies:
 
-```bash
-# UNIX Makefile
-cmake ..
+   ```git clone --recursive https://github.com/YOUR-USERNAME/YOUR-REPOSITORY````
 
-# Mac OSX
-cmake -G "Xcode" ..
+   Since you will be creating multiple repositories for this class, you may want to organize them in a directory structure such as cisc3620/labs/.
 
-# Microsoft Windows
-cmake -G "Visual Studio 14" ..
-cmake -G "Visual Studio 14 Win64" ..
-...
-```
+2. Generate a project file or makefile for your platform.
 
-If you compile and run, you should now be at the same point as the [Hello Window](http://www.learnopengl.com/#!Getting-started/Hello-Window) or [Context Creation](https://open.gl/context) sections of the tutorials. Open [main.cpp](https://github.com/Polytonic/Glitter/blob/master/Glitter/Sources/main.cpp) on your computer and start writing code!
+   If you don't have cmake installed on your machine, get it from (http://www.cmake.org/download/).
 
-## License
->The MIT License (MIT)
+   Navigate to the Build subdirectory (one down from the top of the repository).
 
->Copyright (c) 2015 Kevin Fung
+   Choose the appropriate command for your platform and IDE:
 
->Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+   ```bash
+   # UNIX Makefile
+   cmake ..
+   
+   # Mac OSX
+   cmake -G "Xcode" ..
+   
+   # Microsoft Windows
+   cmake -G "Visual Studio 14" ..
+   cmake -G "Visual Studio 14 Win64" ..
+   ```
 
->The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+3. Compile and run.
 
->THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+   You should see a window with a gray background.
+
+## Modify
+
+Open main.cpp for editing. The only change you need to make for this assignment is to change the background color (the clear color) from gray to blue.
+
+## Submit
+We will use the [fork and pull request](https://guides.github.com/activities/forking/)  workflow for submissions for this class. Follow the link for a guide to this workflow. The idea is that you will fork this repository, make the required changes in your own copy, and then submit a pull request and @mention me (@rivlev). __The pull request and @mention comprise your submission for this assignment.__ For this assignment, I will only look at the changes you make to main.cpp
+
+This setup for this class is new, so please submit a separate pull request if you can clear up any errors or lack of clarity here. 
+
