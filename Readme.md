@@ -1,5 +1,7 @@
 # Lab 1: Open window
 
+## Due date: Please note that this lab is due on Thursday 2/2
+
 ## Summary
 The startup code for this class is cloned from (http://polytonic.github.io/Glitter/). It is intended to get you started with OpenGL by compiling and statically linking every required library, so you don't have to deal with all that. 
 
