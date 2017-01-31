@@ -7,7 +7,7 @@ The startup code for this class is cloned from (http://polytonic.github.io/Glitt
 
 ## Getting started
 
-Instructions (here)[https://cisc3620.github.io/docs/submissions.html]
+Instructions [here](https://cisc3620.github.io/docs/submissions.html)
 
 Follow the directions to clone this repository and generate a makefile.
 
@@ -20,7 +20,7 @@ Open main.cpp for editing. The only change you need to make for this assignment 
 ## Submit
 We will use the fork and pull request workflow for submissions for this class. The idea is that you will make the required changes in your own copy, and then submit a pull request and @mention me (@rivlev). __The pull request and @mention comprise your submission for this assignment.__ For this assignment, I will only look at the changes you make to main.cpp
 
-Stage, commit and push your changes and create a pull request to complete the submission. Instructions (here)[https://cisc3620.github.io/docs/submissions.html].
+Stage, commit and push your changes and create a pull request to complete the submission. Instructions [here](https://cisc3620.github.io/docs/submissions.html).
 
 This setup for this class is new, so please submit a separate pull request if you can clear up any errors or lack of clarity here. 
 
